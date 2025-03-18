@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Light Mode */
+  .light-mode {
+    --background-color: white;
+    --text-color: black;
+    --link-color: red;
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    --background-color: black;
+    --text-color: white;
+    --link-color: red;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-link {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  
+  .menu-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu-link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .menu-link:hover {
+    color: var(--link-color);
+  }
+  
+  /* Toggle Button */
+  .mode-toggle {
+    background-color: var(--link-color);
+    color: var(--background-color);
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mode-toggle:hover {
+    background-color: var(--text-color);
+    color: var(--link-color);
+  }
+  

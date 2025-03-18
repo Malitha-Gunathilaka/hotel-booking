@@ -1,0 +1,45 @@
+.room-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  max-width: 400px;
+  margin: 20px;
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.carousel-arrow.prev {
+  left: 10px;
+}
+
+.carousel-arrow.next {
+  right: 10px;
+}
+
+.amenity-tag {
+  background: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin: 5px;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+/* ...existing styles... */
